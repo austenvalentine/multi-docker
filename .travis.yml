@@ -15,7 +15,7 @@ after_success:
   - docker build -t austenvalentine/multi-server ./server
   # log in to docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
-  ## push those images to travis CI
+  ## push those images to travis CI .
   - docker push austenvalentine/multi-client
   - docker push austenvalentine/multi-nginx
   - docker push austenvalentine/multi-worker
