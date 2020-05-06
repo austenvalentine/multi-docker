@@ -10,7 +10,7 @@
     },
     {
       "name": "server",
-      "image": "austenvalenting/multi-server",
+      "image": "austenvalentine/multi-server",
       "hostname": "api",
       "essential": false,
       "memory": 128
